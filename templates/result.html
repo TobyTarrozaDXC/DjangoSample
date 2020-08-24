@@ -1,0 +1,25 @@
+{% extends 'Base.html' %}
+{%  block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home 2! {{ name }}</title>
+</head>
+<body>
+<h1>
+Result : {{ result }}
+</h1>
+
+
+<form action="add">
+    Enter 1st number : <input type="text" name="num1"><br>
+    Enter 2nd number : <input type="text" name="num2"><br>
+    <input type="submit">
+</form>
+
+</body>
+</html>
+
+{% endblock %}
